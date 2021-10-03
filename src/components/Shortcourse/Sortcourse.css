@@ -1,0 +1,31 @@
+.shortcourse {
+  /* margin: 50px 50px; */
+}
+.shortcourse h1 {
+  text-align: center;
+  margin: 70px 0px;
+}
+.course-parent {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-gap: 20px;
+  margin-top: 50px;
+}
+.left {
+  padding: 30px;
+}
+.right {
+  padding: 30px;
+  margin: 30px;
+  background-color: lightgray;
+}
+.shadow {
+  border: 0;
+}
+
+.right button {
+  background-color: tomato;
+  border: 0;
+  width: 129px;
+  color: white;
+}

@@ -1,0 +1,20 @@
+.first-section {
+  position: relative;
+  height: calc(100vh - 80px);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  background-image: url(https://images.prismic.io/mystique/11dbeb70-d0ec-44b4-8e7a-1eb945f5a1b9_98af1a8f-4c24-4d31-baef-258aca37d7b2-14814-interlaken-skydiving-experience-from-interlaken-over-the-swiss-alps-05.jpeg?auto=compress,format);
+}
+
+.first-section h1 {
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  line-height: 0.9;
+  padding-top: 15%;
+}
+.NJ-school {
+  margin-top: 100px;
+}

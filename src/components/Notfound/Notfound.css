@@ -1,0 +1,26 @@
+.page-notfound {
+  text-align: center;
+}
+.page-notfound h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #d86a56;
+  font-size: 122px;
+  margin-bottom: 0;
+  margin-top: 250px;
+}
+.page-notfound h4 {
+  color: #01238a;
+  font-size: 38px;
+  margin-top: 0;
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+}
+.go-home {
+  width: 319px;
+  border: 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 20px;
+  background-color: orangered;
+}

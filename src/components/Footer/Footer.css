@@ -1,0 +1,25 @@
+.footer-text {
+  display: flex;
+  justify-content: center;
+}
+.footer-text small {
+  margin: 10px;
+}
+.footer {
+  margin-top: 80px;
+  height: 150px;
+  background-color: black;
+  color: rgb(133, 132, 132);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer hr {
+  width: 159px;
+  margin-top: 5px;
+}
+.hr-line {
+  display: flex;
+  justify-content: center;
+}

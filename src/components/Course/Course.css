@@ -1,0 +1,9 @@
+.all-course h1 {
+  text-align: center;
+  margin: 60px 0px;
+  color: rgb(44, 2, 83);
+  font-weight: bold;
+}
+.all-course {
+  margin: 0px 70px;
+}
