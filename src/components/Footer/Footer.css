@@ -6,7 +6,7 @@
   margin: 10px;
 }
 .footer {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   height: 150px;
   background-color: black;
   color: rgb(133, 132, 132);
@@ -22,4 +22,13 @@
 .hr-line {
   display: flex;
   justify-content: center;
+}
+
+.footer-text small:hover {
+  color: rgb(190, 190, 190);
+  text-decoration: underline;
+}
+.footer p:hover {
+  color: rgb(190, 190, 190);
+  text-decoration: underline;
 }

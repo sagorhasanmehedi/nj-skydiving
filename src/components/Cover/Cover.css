@@ -1,20 +1,26 @@
-.first-section {
-  position: relative;
-  height: calc(100vh - 80px);
+.big-image {
+  height: 100vh;
+  width: 100vw;
   background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-
-  background-image: url(https://images.prismic.io/mystique/11dbeb70-d0ec-44b4-8e7a-1eb945f5a1b9_98af1a8f-4c24-4d31-baef-258aca37d7b2-14814-interlaken-skydiving-experience-from-interlaken-over-the-swiss-alps-05.jpeg?auto=compress,format);
+  position: relative;
+  background-position: 50% 50%;
+  background-image: url("https://images.prismic.io/mystique/11dbeb70-d0ec-44b4-8e7a-1eb945f5a1b9_98af1a8f-4c24-4d31-baef-258aca37d7b2-14814-interlaken-skydiving-experience-from-interlaken-over-the-swiss-alps-05.jpeg?auto=compress,format");
 }
 
-.first-section h1 {
-  text-align: center;
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
   color: white;
-  font-size: 5rem;
-  line-height: 0.9;
-  padding-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.NJ-school {
-  margin-top: 100px;
+.overlay h1 {
+  font-size: 104px;
+  font-weight: bold;
 }

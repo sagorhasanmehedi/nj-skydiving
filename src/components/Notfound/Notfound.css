@@ -1,5 +1,6 @@
 .page-notfound {
   text-align: center;
+  height: 50vh;
 }
 .page-notfound h1 {
   font-family: "Courier New", Courier, monospace;

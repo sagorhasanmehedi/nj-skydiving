@@ -7,3 +7,4 @@ WEBSITE: https://assignment-9-react-router.netlify.app/
 <li>Bootstrap</li>
 <li>React Router</li>
 <li>Context API</li>
+<li>Recharts</li>

@@ -3,11 +3,14 @@ import "./Cover.css";
 
 const Cover = () => {
   return (
-    <div className="first-section">
-      <h1>
-        Every day is different <br />
-        NZ Skydiving School.
-      </h1>
+    <div className="big-image">
+      <div className="overlay">
+        <h1>Every day is different</h1>
+        <h4>
+          Bringing you professional skydiving instruction and throughout the
+          world... NZ Skydiving School.
+        </h4>
+      </div>
     </div>
   );
 };

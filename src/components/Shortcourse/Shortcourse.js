@@ -1,84 +1,37 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Button, Card, Col, Form, Row } from "react-bootstrap";
+import { Usedata } from "../../Usedata/Usedata";
 import "./Sortcourse.css";
 
 const Shortcourse = () => {
+  const [data] = Usedata();
+  const dataslice = data.slice(0, 4);
+  const histroy = useHistory();
+  const gocourses = () => {
+    histroy.push("/course");
+  };
+
   return (
     <div className="shortcourse">
       <h1>Our Course</h1>
       <div className="course-parent">
         <div className="left">
           <Row xs={1} md={2} className="g-5">
-            <Col>
-              <Card className="shadow">
-                <Card.Img
-                  variant="top"
-                  src={
-                    "https://www.skydivedelmarva.com/wp-content/uploads/2021/04/pexels-sang-adjie-6838489-1024x683.jpg"
-                  }
-                />
-                <Card.Body>
-                  <Card.Title>Category E2</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="shadow">
-                <Card.Img
-                  variant="top"
-                  src="https://www.skydivesouthsask.ca/images/photos_iad/iad_gallery2.jpg"
-                />
-                <Card.Body>
-                  <Card.Title>
-                    15 minutes tunnel time at Inflight Dubai{" "}
-                  </Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="shadow">
-                <Card.Img
-                  variant="top"
-                  src={
-                    "https://skydivedeland.com/wp-content/uploads/learn-to-skydive-aff-collage-3-1200x800.jpg"
-                  }
-                />
-                <Card.Body>
-                  <Card.Title>Repeat AFF jump</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="shadow">
-                <Card.Img
-                  variant="top"
-                  src="https://images.squarespace-cdn.com/content/v1/5ff51326eba31e69a2f4bcda/1611107372515-9N7G2ZH4QKEWPCPS0NV1/ifly-skydiving-centre-brisbane.jpg"
-                />
-                <Card.Body>
-                  <Card.Title>Full package</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
+            {dataslice.map((course) => (
+              <Col>
+                <Card className="shadow">
+                  <Card.Img variant="top" src={course.img} />
+                  <Card.Body>
+                    <Card.Title>{course.title}</Card.Title>
+                    <Card.Text>{course.dse}</Card.Text>
+                    <div className="coursesbutton">
+                      <button onClick={gocourses}>COURSES</button>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
           </Row>
         </div>
         <div className="right">

@@ -1,9 +1,10 @@
 .shortcourse {
-  /* margin: 50px 50px; */
+  margin: 50px 50px;
 }
 .shortcourse h1 {
   text-align: center;
   margin: 70px 0px;
+  font-weight: bold;
 }
 .course-parent {
   display: grid;
@@ -28,4 +29,17 @@
   border: 0;
   width: 129px;
   color: white;
+}
+
+.shadow button {
+  background-color: tomato;
+  border: 0;
+  width: 129px;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+}
+.coursesbutton {
+  text-align: center;
+  margin: 20px 0px;
 }
