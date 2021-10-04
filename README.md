@@ -1,6 +1,6 @@
 # NJ SKYDIVING SCHOOL
 
-WEBSITE: https://github.com/facebook/create-react-app
+WEBSITE: https://assignment-9-react-router.netlify.app/
 
 <li>This Website For Learning Skydiving</li>
 <li>React</li>
