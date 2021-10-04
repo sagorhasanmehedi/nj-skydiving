@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 
+// courses section and every Singelcourses
 const Singelcourses = (props) => {
   console.log(props.data);
   const { title, dse, img } = props.data;

@@ -6,7 +6,6 @@
   margin: 10px;
 }
 .footer {
-  /* margin-top: 80px; */
   height: 150px;
   background-color: black;
   color: rgb(133, 132, 132);
@@ -16,8 +15,9 @@
   justify-content: center;
 }
 .footer hr {
-  width: 159px;
-  margin-top: 5px;
+  width: 140px;
+  margin-top: 0;
+  color: white;
 }
 .hr-line {
   display: flex;
@@ -31,4 +31,8 @@
 .footer p:hover {
   color: rgb(190, 190, 190);
   text-decoration: underline;
+}
+
+.footer p {
+  margin-bottom: 5px;
 }

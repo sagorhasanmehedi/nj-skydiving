@@ -4,6 +4,8 @@ import { Usedata } from "../../Usedata/Usedata";
 import Singelcourses from "../Singelcourses/Singelcourses";
 import "./Course.css";
 
+// all course parent
+
 const Course = () => {
   const [data] = Usedata();
   return (

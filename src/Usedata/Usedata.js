@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// custom hook , data from Courses.Json
 const Usedata = () => {
   const [data, setdata] = useState([]);
   useEffect(() => {

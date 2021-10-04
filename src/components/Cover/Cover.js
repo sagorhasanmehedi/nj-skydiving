@@ -1,6 +1,8 @@
 import React from "react";
 import "./Cover.css";
 
+// cover section
+
 const Cover = () => {
   return (
     <div className="big-image">

@@ -1,11 +1,7 @@
 .shortcourse {
-  margin: 50px 50px;
+  margin: 100px 50px 50px 50px;
 }
-.shortcourse h1 {
-  text-align: center;
-  margin: 70px 0px;
-  font-weight: bold;
-}
+
 .course-parent {
   display: grid;
   grid-template-columns: 6fr 6fr;
@@ -26,7 +22,7 @@
 
 .right button {
   background-color: tomato;
-  border: 0;
+  border: 2px;
   width: 129px;
   color: white;
 }
@@ -42,4 +38,11 @@
 .coursesbutton {
   text-align: center;
   margin: 20px 0px;
+}
+
+.course-parent h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: rgb(1, 1, 43);
 }

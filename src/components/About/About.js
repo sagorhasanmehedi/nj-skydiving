@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
 
+// this is about section
+
 const About = () => {
   const websitedubai = () => {
     window.location.href = "https://skydiveratings.com/";

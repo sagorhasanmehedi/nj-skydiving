@@ -2,7 +2,10 @@ import React from "react";
 import { useHistory } from "react-router";
 import "./Notfound.css";
 
+// not found page
+
 const Notfound = () => {
+  // home button
   const histroy = useHistory();
   const gohome = () => {
     histroy.push("/home");

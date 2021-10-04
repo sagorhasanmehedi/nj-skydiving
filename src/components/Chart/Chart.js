@@ -10,6 +10,8 @@ import {
 } from "recharts";
 import "./Chart.css";
 
+// chart data
+
 const data = [
   {
     name: "Jumptown",
@@ -54,6 +56,8 @@ const data = [
     amt: 2100,
   },
 ];
+
+// chart section
 
 const Chart = () => {
   return (
