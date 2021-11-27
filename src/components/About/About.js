@@ -17,7 +17,6 @@ const About = () => {
           their <br /> own professionalism.
         </h1>
         <button onClick={websitedubai}>READ MORE </button>
-        <h1>i am chaking right now</h1>
       </div>
     </div>
   );
